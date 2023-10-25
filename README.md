@@ -38,7 +38,20 @@ git clone https://github.com/yourusername/file-organizer.git
 cd file-organizer
 ```
 
-3. Run the application:
+3. Download the `Azure-ttk-theme` From [Here](https://github.com/rdbende/Azure-ttk-theme)
+
+4. Ensure the Azure-ttk-theme folder is in the correct location, as it is required for the application's theme.
+   Without the theme, the application will not work. (Make changes to line number 117 And 120)
+
+```python
+window.iconbitmap(r"C:\Users\SOHAM\Desktop\Science Exhibition\Scripts\Images\App.ico")
+window.resizable(width=True, height=True) # App Icon Location
+
+window.tk.call("source", r"C:\Users\SOHAM\Desktop\Science Exhibition\Theme\azure.tcl")
+window.tk.call("set_theme", "light") # Theme older Location
+```
+
+5. Run the application:
 
 ```bash
 python file_organizer.py
