@@ -54,7 +54,7 @@ window.tk.call("set_theme", "light") # Theme older Location
 5. Run the application:
 
 ```bash
-python file_organizer.py
+python App.py
 ```
 
 ## Usage
