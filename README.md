@@ -2,7 +2,8 @@
 
 File Organizer is a simple Python script and GUI application for organizing files in a directory based on their file extensions. It allows you to specify a directory, file extensions, and an optional log file for tracking file movements.
 
-[File Organiser](https://github.com/SpreadSheets600/File-Sorter/assets/115402296/ad902296-fbb4-4f79-b117-db9f42916616)
+![image](https://github.com/SpreadSheets600/File-Sorter/assets/115402296/5907a1d1-548f-48da-81d7-1ec352a9c57b)
+
 
 
 ## Features
