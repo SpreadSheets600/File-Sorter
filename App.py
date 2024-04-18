@@ -2,15 +2,15 @@ import os
 import csv
 import shutil 
 
-from datetime import datetime
-
 import tkinter as tk
-import tkinter.font as tkFont
-
-from tkinter.ttk import *
 
 from tkinter import *
 from tkinter import ttk
+from tkinter.ttk import *
+
+from datetime import datetime
+
+import tkinter.font as tkFont
 
 from tkinter import filedialog
 
