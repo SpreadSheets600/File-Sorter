@@ -166,3 +166,5 @@ button = ttk.Button(window, text="Theme", command=change_theme, compound="left" 
 button.place(y = 220, x = 450)
 
 window.mainloop()
+
+# Author SpreadSheets600
